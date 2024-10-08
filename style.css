@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardUser{
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+}
+.imageBoxContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imageBox{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/avatar-jessica.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+.textBox{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-family: Inter;
+}
+
+.name{
+    color: #EEE;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.Location{
+    color: #BFDC62;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.description{
+    color: #C1C1C1;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.buttonContainer{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #333;
+    color: #FFF;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #BFDC62;
+    color: #141414;
+}
